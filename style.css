@@ -1,0 +1,109 @@
+/* styles.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('calculator.jpg'); /* Your selected wallpaper image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    max-width: 350px;
+    width: 100%;
+}
+
+.calculator-screen {
+    margin-bottom: 20px;
+}
+
+#operation {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px 10px 0 0;
+    font-size: 24px;
+    text-align: right;
+    background-color: #e0e0e0;
+    color: #777;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#screen {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    font-size: 32px;
+    text-align: right;
+    background-color: #e0e0e0;
+    color: #333;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.calculator-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.key {
+    padding: 20px;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient(145deg, #62c8f7, #57b3db);
+    color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.key:hover {
+    background: linear-gradient(145deg, #57b3db, #62c8f7);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.equal-sign {
+    background: linear-gradient(145deg, #ff4081, #e73570);
+    grid-column: span 2;
+}
+
+.equal-sign:hover {
+    background: linear-gradient(145deg, #e73570, #ff4081);
+    transform: translateY(-3px);
+}
+
+[data-action="operation"] {
+    background: linear-gradient(145deg, #f57c00, #e66a00);
+}
+
+[data-action="operation"]:hover {
+    background: linear-gradient(145deg, #e66a00, #f57c00);
+}
+
+[data-action="clear"] {
+    background: linear-gradient(145deg, #ff4081, #e73570);
+}
+
+[data-action="clear"]:hover {
+    background: linear-gradient(145deg, #e73570, #ff4081);
+}
+
+[data-action="delete"] {
+    background: linear-gradient(145deg, #ffca28, #ffb300);
+}
+
+[data-action="delete"]:hover {
+    background: linear-gradient(145deg, #ffb300, #ffca28);
+}
