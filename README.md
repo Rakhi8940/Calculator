@@ -1,1 +1,1 @@
-# Calculator
+A simple, responsive calculator built using HTML, CSS, and JavaScript. This app allows users to perform basic arithmetic operations like addition, subtraction, multiplication, and division. It features a clean, user-friendly interface and is fully functional across desktop and mobile devices.
