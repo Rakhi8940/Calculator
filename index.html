@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Calculator</h1>
+    </header>
+    
+    <div class="calculator">
+        <div class="calculator-screen">
+            <input type="text" id="operation" readonly>
+            <input type="text" id="screen" readonly>
+        </div>
+        <div class="calculator-keys">
+            <button class="key" data-action="clear">C</button>
+            <button class="key" data-action="delete">DEL</button>
+            <button class="key" data-action="operation">%</button>
+            <button class="key" data-action="operation">/</button>
+            
+            <button class="key">7</button>
+            <button class="key">8</button>
+            <button class="key">9</button>
+            <button class="key" data-action="operation">*</button>
+            
+            <button class="key">4</button>
+            <button class="key">5</button>
+            <button class="key">6</button>
+            <button class="key" data-action="operation">-</button>
+            
+            <button class="key">1</button>
+            <button class="key">2</button>
+            <button class="key">3</button>
+            <button class="key" data-action="operation">+</button>
+            
+            <button class="key">0</button>
+            <button class="key">.</button>
+            <button class="key equal-sign" data-action="calculate">=</button>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Designed by Rakhi Yadav</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
