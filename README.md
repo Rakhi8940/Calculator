@@ -12,8 +12,6 @@ A simple, clean, and responsive **Calculator App** built with **HTML**, **CSS**,
 
 <!-- Add your screenshots here -->
 ![Screenshot 2025-02-15 193759](https://github.com/user-attachments/assets/96331f88-7a81-4d4a-b4dd-1adc4ce25570)
-![Screenshot 2025-02-15 193759](https://github.com/user-attachments/assets/96331f88-7a81-4d4a-b4dd-1adc4ce25570)
-![Screenshot 2025-02-15 193825](https://github.com/user-attachments/assets/49f578d1-fe3b-4344-a5ed-f9b52e1e889f)
 ![Screenshot 2025-02-15 193825](https://github.com/user-attachments/assets/49f578d1-fe3b-4344-a5ed-f9b52e1e889f)
 
 
