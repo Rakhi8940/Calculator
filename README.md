@@ -11,10 +11,11 @@ A simple, clean, and responsive **Calculator App** built with **HTML**, **CSS**,
 ## 📸 App Screenshots
 
 <!-- Add your screenshots here -->
-<p align="center">
-  <img src="![Screenshot 2025-02-15 193759](https://github.com/user-attachments/assets/f828d553-6d50-4508-a94d-3107a80f6956)" width="350" alt="Calculator Screenshot 1" style="margin: 0 8px 12px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);"/> 
-  <img src="![Screenshot 2025-02-15 193825](https://github.com/user-attachments/assets/57e905d5-381a-4374-912b-e4bf3fba0d1b)" width="350" alt="Calculator Screenshot 2" style="margin: 0 8px 12px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);"/> 
-</p>
+![Screenshot 2025-02-15 193759](https://github.com/user-attachments/assets/96331f88-7a81-4d4a-b4dd-1adc4ce25570)
+![Screenshot 2025-02-15 193759](https://github.com/user-attachments/assets/96331f88-7a81-4d4a-b4dd-1adc4ce25570)
+![Screenshot 2025-02-15 193825](https://github.com/user-attachments/assets/49f578d1-fe3b-4344-a5ed-f9b52e1e889f)
+![Screenshot 2025-02-15 193825](https://github.com/user-attachments/assets/49f578d1-fe3b-4344-a5ed-f9b52e1e889f)
+
 
 ---
 
